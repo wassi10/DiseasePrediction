@@ -50,6 +50,13 @@ html {
     font-weight: 600;
 }
 
+.header img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-bottom: 1.5rem;
+
+}
+
 .navbar {
     position: relative;
 }
@@ -268,7 +275,7 @@ section {
 /* === Users Comment */
 .comment {
     padding: 0 9%;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 }
 
 .comment-card-content {
@@ -321,8 +328,28 @@ section {
     line-height: normal;
     margin-top: 5rem;
 }
+
+.comment a:hover {
+    color: #fff;
+}
+
 .comment-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* === Footer === */
+footer {
+    height: 24.6rem;
+    padding: 0 15% 2rem;
+    background: #0A0E31;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5.5rem;
+    color: #fff;
+}
+
