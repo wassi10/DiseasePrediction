@@ -84,8 +84,37 @@
     background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
     box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
 }
-.terms-cards a:hover{
+
+.terms-cards a:hover {
     color: #fff;
-} 
+}
 
 /* ===== Patient Information ===== */
+
+/* ==== Help ==== */
+.help {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    place-content: center;
+}
+
+.help-cards {
+    position: relative;
+}
+
+.blue-cards {
+    width: 100rem;
+    height: 15.5rem;
+    background: var(--gradient-bp, linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%));
+    top: -50px;
+}
+
+.help-cards .form-cards {
+    width: 90%;
+    height: 40rem;
+    border-radius: 1rem;
+    background: #EAF2FD;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+}
