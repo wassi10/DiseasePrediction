@@ -31,29 +31,40 @@
     <!-- ===== Predict Your Heart Disease ===== -->
 
     <section class="predict">
+
+        <div class="predict-section">
+            <h2 class="predict-heading">Predict your Heart Disease</h2>
+        </div>
+
         <div class="predict-des">
-            <div class="predict-section">
-                <h2 class="predict-heading">Predict your Heart Disease</h2>
-            </div>
 
             <div class="predict-cards">
                 <h3>Patient Information</h3>
 
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
 
-                <div class="btn-group dropdown">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="true">
-                        Select Gender
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><button class="dropdown-item" type="button">Male</button></li>
-                        <li><button class="dropdown-item" type="button">Female</button></li>
-                    </ul>
+                <div class="dropdown-btn">
+                    <div class="btn-group dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Select Gender
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">Male</button></li>
+                            <li><button class="dropdown-item" type="button">Female</button></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <input type="number" id="age" name="age" placeholder="Age" required>
+                    </div>
                 </div>
 
-                <input type="text" id="name" name="name" placeholder="Age" required>
             </div>
+            <!-- <div class="predict-cards">
+                <div>I am overweight </div>
+                
+            </div> -->
         </div>
 
     </section>
