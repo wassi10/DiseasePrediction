@@ -97,16 +97,17 @@
 .predict-des {
     margin: 0 auto;
     width: 80rem;
-    height: 42rem;
+    height: 44rem;
     border-radius: 1rem;
     background: #EAF2FD;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
-    display: flex;
-    gap: 7rem;
-    padding: 6rem 4rem;
 }
 
-
+.predict-description-card {
+    display: flex;
+    gap: 7rem;
+    padding: 5rem 4rem;
+}
 
 .predict-cards h3 {
     color: #000;
@@ -164,7 +165,7 @@
 }
 
 .personal-info .info .check-info-smoke {
-    margin-left: 4.6rem;
+    margin-left: 4.7rem;
 }
 
 .personal-info .info .check-info-cholesterol {
@@ -172,5 +173,40 @@
 }
 
 .personal-info .info .check-info-hypertension {
-    margin-left: 4rem;
+    margin-left: 4.1rem;
+}
+
+/* Back and Next Button */
+.predict-des .predict-info-btn{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.predict-info-btn .back-btn {
+    display: inline-flex;
+    padding: 1.1rem 2rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 6.25rem;
+    background: #FFF;
+    box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+    font-family: Sora;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.predict-info-btn .next-btn {
+    display: inline-flex;
+    padding: 1.1rem 2rem;
+    align-items: flex-start;
+    color: #fff;
+    gap: 0.625rem;
+    border-radius: 6.25rem;
+    background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+    font-family: Sora;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
 }
