@@ -96,17 +96,17 @@
 
 .predict-des {
     margin: 0 auto;
-    align-items: center;
     width: 80rem;
     height: 42rem;
     border-radius: 1rem;
     background: #EAF2FD;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    gap: 7rem;
+    padding: 6rem 4rem;
 }
 
-.predict-cards {
-    padding: 4rem;
-}
+
 
 .predict-cards h3 {
     color: #000;
@@ -140,4 +140,37 @@
     font-size: 1.2rem;
     padding: 1rem;
     border-radius: 0.375rem;
+}
+
+.personal-info {
+    /* Patient info */
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 5rem;
+}
+
+.personal-info .info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-bottom: 1.2rem;
+}
+
+.personal-info .info .check-info {
+    margin-left: 6.5rem;
+}
+
+.personal-info .info .check-info-smoke {
+    margin-left: 4.6rem;
+}
+
+.personal-info .info .check-info-cholesterol {
+    margin-left: 2rem;
+}
+
+.personal-info .info .check-info-hypertension {
+    margin-left: 4rem;
 }
