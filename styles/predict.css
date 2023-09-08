@@ -9,7 +9,7 @@
 }
 
 .predict-section .predict-heading {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
     font-size: 2.4rem;
     font-weight: 600;
@@ -105,7 +105,7 @@
 
 .predict-description-card {
     display: flex;
-    gap: 7rem;
+    gap: 11.2rem;
     padding: 5rem 4rem;
 }
 
@@ -177,14 +177,15 @@
 }
 
 /* Back and Next Button */
-.predict-des .predict-info-btn{
+.predict-des .predict-info-btn {
     display: flex;
     gap: 3rem;
     justify-content: center;
 }
+
 .predict-info-btn .back-btn {
     display: inline-flex;
-    padding: 1.1rem 2rem;
+    padding: 1rem 2rem;
     align-items: flex-start;
     gap: 0.625rem;
     border-radius: 6.25rem;
@@ -198,7 +199,7 @@
 
 .predict-info-btn .next-btn {
     display: inline-flex;
-    padding: 1.1rem 2rem;
+    padding: 1rem 2rem;
     align-items: flex-start;
     color: #fff;
     gap: 0.625rem;
@@ -209,4 +210,38 @@
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
+}
+
+/* ======== Select Symptoms ======= */
+.symptoms {
+    padding: 5rem 4rem;
+}
+
+.patient_symptom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.patient_symptom h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.patient_symptom button {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 6.25rem;
+    border: 1px solid #3A8EF6;
+    box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+    font-family: Sora;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: transparent;
+    color: #3A8EF6;
 }

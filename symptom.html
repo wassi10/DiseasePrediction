@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction System</title>
+    <link rel="stylesheet" href="styles/predict.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- ==========Header design=========== -->
+    <header class="header head">
+        <a href="#" class="logo text-decoration-none">Heart DP. <img src="Icon/logo.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="index.html" class="active text-decoration-none">Home</a>
+            <a href="#analysis" class="text-decoration-none">Analysis</a>
+            <a href="predict.html" class="text-decoration-none">Predict</a>
+            <a href="help.html" class="text-decoration-none">Help</a>
+            <a href="#ourTeam" class="text-decoration-none">Our Team</a>
+        </nav>
+    </header>
+
+    <!-- ===== Predict Your Heart Disease ===== -->
+
+    <section class="predict-symptoms">
+
+        <div class="predict-section">
+            <h2 class="predict-heading">Predict your Heart Disease</h2>
+        </div>
+
+        <div class="predict-des">
+
+            <div class="symptoms">
+
+                <div class="patient_symptom">
+                    <h3>Enter Report Values</h3>
+                    <button>Reset</button>
+                </div>
+
+                <div class="predict-info-btn">
+                    <a href="patient-info.html" class="back-btn">Back</a>
+                    <a href="report.html" class="next-btn">Next</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <h2>Heart DP. <img src="Icon/logo.png" alt=""></h2>
+                <p>Sylhet, Bangladesh.</p>
+
+                <div class="footer-icon">
+                    <div><img src="Icon/whatsapp.png" alt=""></div>
+                    <div><img src="Icon/facebook.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h2 class="footer-title">Navigation</h2>
+                <div class="footer-navi">
+                    <div><a href="index.html">Home</a></div>
+                    <div><a href="">Analysis</a></div>
+                    <div><a href="predict.html">Predict</a></div>
+                    <div><a href="help.html">Help</a></div>
+                    <div><a href="">Our Team</a></div>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h2 class="footer-title">Contact Info</h2>
+                <p>wassikhadiza@gmail.com</p>
+                <p>+8801688732682</p>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright">Copyright © Heart DP. 2023</p>
+    </footer>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector(".header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="Js/symptom.js"></script>
+
+</body>
+
+</html>
